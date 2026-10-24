@@ -3,94 +3,252 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>গোপনীয়তা নীতি / Privacy Policy – Prostuti</title>
+<title>প্রাইভেসি পলিসি — Prostuti</title>
+<meta name="description" content="Prostuti অ্যাপের প্রাইভেসি পলিসি: আমরা কী তথ্য সংগ্রহ করি, কীভাবে ব্যবহার করি এবং আপনার অধিকার।">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-body{margin:0;font-family:"Hind Siliguri","Noto Sans Bengali",Arial,sans-serif;color:#10213f;background:#f5f8fd;line-height:1.8}
-.wrap{max-width:780px;margin:0 auto;padding:32px 20px 60px}
-h1{color:#0a2a5e;margin-bottom:4px}
-h2{color:#0a2a5e;margin-top:32px;border-bottom:2px solid #ff9f1a;padding-bottom:4px}
-a{color:#103a7a}
-.meta{color:#4a5a78}
-hr{border:0;border-top:1px solid #c9d6ec;margin:48px 0}
+:root{
+  --bg:#f6f4ff; --card:#ffffff; --text:#1c1740; --muted:#5d5788; --line:#e3defa;
+  --accent:#5b47e0; --gold:#c98a00; --quote:#efeaff;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0d0921; --card:#1a1340; --text:#f6f4ff; --muted:#b9b1de; --line:#33296b;
+         --accent:#a99cff; --gold:#ffc542; --quote:#241b55; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:"Hind Siliguri","Noto Sans Bengali","Kalpurush",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:17px;line-height:1.85}
+header{
+  background:linear-gradient(135deg,#4a3bc0,#1f1757);color:#fff;
+  padding:48px 20px 40px;
+  text-align:center}
+header h1{margin:0 0 8px;font-size:2rem;line-height:1.3;font-weight:700}
+header p{
+  margin:0;
+  opacity:.85;
+  font-size:.95rem;
+  color:#fff;
+}
+main{max-width:820px;margin:-24px auto 48px;padding:0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:28px 26px;margin-bottom:18px;
+  box-shadow:0 6px 24px rgba(40,25,120,.08)}
+.note{background:var(--quote);border-left:4px solid var(--gold);border-radius:12px;padding:14px 16px;margin:18px 0 0;color:var(--text)}
+h2{font-size:1.3rem;margin:0 0 10px;color:var(--accent);line-height:1.4}
+h3{font-size:1.05rem;margin:18px 0 4px;color:var(--gold)}
+p{margin:.5em 0;color:var(--text)}
+ul{margin:.4em 0 .8em;padding-left:1.3em}
+li{margin:.25em 0}
+nav ol{margin:6px 0 0;padding-left:1.4em;columns:2;column-gap:28px}
+nav li{break-inside:avoid;margin:.15em 0}
+a{color:var(--accent)}
+a.mail{font-weight:700;color:var(--gold);text-decoration:none;word-break:break-all}
+a.mail:hover{text-decoration:underline}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 16px 40px}
+
+.lang-switch{display:inline-flex;gap:4px;margin-top:18px;padding:4px;border-radius:999px;background:rgba(255,255,255,.14)}
+.lang-switch button{font:inherit;font-size:.9rem;font-weight:600;border:0;cursor:pointer;color:#fff;background:transparent;padding:6px 18px;border-radius:999px}
+.lang-switch button[aria-pressed="true"]{background:#fff;color:#2b2080}
+.lang-switch button:focus-visible{outline:2px solid #ffc542;outline-offset:2px}
+body[data-view="bn"] .en{display:none}
+body[data-view="en"] .bn{display:none}
+@media (max-width:600px){
+  body{font-size:16px} header h1{font-size:1.6rem}
+  .card{padding:22px 18px;border-radius:16px} nav ol{columns:1}
+}
 </style>
 </head>
-<body>
-<div class="wrap">
-<h1>গোপনীয়তা নীতি</h1>
-<p class="meta">অ্যাপ: Prostuti (প্রস্তুতি) · প্রকাশক: মিলন একাডেমী · সর্বশেষ হালনাগাদ: ২২ অক্টোবর ২০২৬</p>
-
-<p>Prostuti ব্যবহারকারীর গোপনীয়তাকে গুরুত্ব দেয়। এই নীতিতে বলা আছে আমরা কী তথ্য সংগ্রহ করি, কেন করি এবং কীভাবে ব্যবহার করি।</p>
-
-<h2>১. আমরা যে তথ্য সংগ্রহ করি</h2>
-<ul>
-<li><strong>অ্যাকাউন্ট তথ্য:</strong> ইমেইল ও পাসওয়ার্ড (Firebase Authentication-এর মাধ্যমে)।</li>
-<li><strong>প্রোফাইল তথ্য (ঐচ্ছিক):</strong> নাম, ক্লাস, ফোন নম্বর, শিক্ষাপ্রতিষ্ঠান, ঠিকানা (বিভাগ/জেলা), প্রোফাইল ছবি।</li>
-<li><strong>অ্যাপ ব্যবহারের তথ্য:</strong> পরীক্ষার ফলাফল, উত্তর, XP, স্ট্রিক, ব্যাজ, বুকমার্ক ও লিডারবোর্ডের তথ্য।</li>
-<li><strong>ডিভাইস ও বিজ্ঞাপন তথ্য:</strong> বিজ্ঞাপন আইডি (Advertising ID), ডিভাইসের ধরন ও অ্যাপ ব্যবহারের পরিসংখ্যান। এগুলো Google AdMob ও Firebase সেবার মাধ্যমে সংগৃহীত হতে পারে।</li>
-<li><strong>নোটিফিকেশন টোকেন:</strong> রিমাইন্ডার ও চ্যালেঞ্জের ফল পাঠানোর জন্য।</li>
-</ul>
-
-<h2>২. তথ্য কীভাবে ব্যবহার করি</h2>
-<ul>
-<li>অ্যাকাউন্ট তৈরি, লগইন ও পরীক্ষার ইতিহাস সংরক্ষণ করতে।</li>
-<li>লিডারবোর্ড, র‍্যাংকিং ও বন্ধুর সাথে চ্যালেঞ্জ চালাতে।</li>
-<li>রিমাইন্ডার ও নোটিফিকেশন পাঠাতে।</li>
-<li>অ্যাপের মান উন্নত করতে এবং ত্রুটি খুঁজে বের করতে।</li>
-<li>অ্যাপে বিজ্ঞাপন দেখাতে (নিচে দেখুন)।</li>
-</ul>
-
-<h2>৩. যে তথ্য অন্যরা দেখতে পায়</h2>
-<p>লিডারবোর্ডে কারও প্রোফাইলে ট্যাপ করলে শুধু ছবি, নাম, ক্লাস, XP ও মোট পরীক্ষার সংখ্যা দেখা যায়। ফোন নম্বর, ইমেইল ও ঠিকানা অন্য ব্যবহারকারীদের দেখানো হয় না।</p>
-
-<h2>৪. বিজ্ঞাপন</h2>
-<p>অ্যাপে Google AdMob-এর বিজ্ঞাপন দেখানো হতে পারে। AdMob বিজ্ঞাপন দেখানো ও পরিমাপের জন্য বিজ্ঞাপন আইডি ও ডিভাইস তথ্য ব্যবহার করতে পারে। আমাদের অনেক ব্যবহারকারী ১৮ বছরের কম বয়সী, তাই আমরা শিশু-উপযোগী বিজ্ঞাপন সেটিং ও কনটেন্ট রেটিং সীমা ব্যবহার করি। ব্যবহারকারী ডিভাইসের সেটিং থেকে বিজ্ঞাপন আইডি রিসেট বা বিজ্ঞাপন ব্যক্তিগতকরণ বন্ধ করতে পারেন। বিস্তারিত: <a href="https://policies.google.com/technologies/ads">Google Advertising Policy</a>।</p>
-
-<h2>৫. তৃতীয় পক্ষের সেবা</h2>
-<ul>
-<li><a href="https://firebase.google.com/support/privacy">Firebase (Authentication, Firestore, Storage, Cloud Messaging)</a></li>
-<li><a href="https://policies.google.com/privacy">Google Play Services ও AdMob</a></li>
-</ul>
-<p>আমরা ব্যক্তিগত তথ্য বিক্রি করি না।</p>
-
-<h2>৬. শিশুদের গোপনীয়তা</h2>
-<p>অ্যাপটি ক্লাস ৬ থেকে ১২-এর শিক্ষার্থীদের জন্য। ১৩ বছরের কম বয়সীরা অভিভাবকের তত্ত্বাবধানে অ্যাপ ব্যবহার করবে। আমরা জেনেশুনে অপ্রয়োজনীয় ব্যক্তিগত তথ্য সংগ্রহ করি না, আর প্রোফাইলের বেশিরভাগ তথ্য ঐচ্ছিক। অভিভাবক চাইলে সন্তানের তথ্য মুছে ফেলার অনুরোধ করতে পারেন।</p>
-
-<h2>৭. তথ্য সংরক্ষণ ও মুছে ফেলা</h2>
-<p>অ্যাকাউন্ট সক্রিয় থাকা পর্যন্ত তথ্য সংরক্ষিত থাকে। আপনার অ্যাকাউন্ট ও সংশ্লিষ্ট সব তথ্য মুছে ফেলতে চাইলে নিচের ইমেইলে অনুরোধ পাঠান। আমরা যুক্তিসঙ্গত সময়ের মধ্যে তা মুছে দেব।</p>
-
-<h2>৮. নিরাপত্তা</h2>
-<p>তথ্য সুরক্ষায় আমরা Firebase-এর নিরাপত্তা ব্যবস্থা ও অ্যাক্সেস নিয়ম ব্যবহার করি। তবে ইন্টারনেটে কোনো ব্যবস্থাই শতভাগ নিরাপদ নয়।</p>
-
-<h2>৯. নীতির পরিবর্তন</h2>
-<p>এই নীতি বদলালে এই পাতায় নতুন তারিখসহ হালনাগাদ করা হবে।</p>
-
-<h2>১০. যোগাযোগ</h2>
-<p>মিলন একাডেমী · ইমেইল: <a href="mailto:contact.prostutiinfo@gmail.com">contact.prostutiinfo@gmail.com</a></p>
-
-<hr>
-
-<h1 lang="en">Privacy Policy (English)</h1>
-<p class="meta" lang="en">App: Prostuti · Publisher: Milon's Academy · Last updated: October 22, 2026</p>
-<div lang="en">
-<h2>Information we collect</h2>
-<p>Account data (email, via Firebase Authentication); optional profile data (name, class, phone number, institution, address, profile photo); app activity (exam results, answers, XP, streaks, badges, bookmarks, leaderboard data); device and advertising data (Advertising ID, device type, usage statistics) through Google AdMob and Firebase; and notification tokens.</p>
-<h2>How we use it</h2>
-<p>To provide accounts, exam history, leaderboards, friend challenges and reminders; to improve the app; and to show ads.</p>
-<h2>What other users can see</h2>
-<p>A public profile shows only photo, name, class, XP and total exams taken. Phone, email and address are never shown to other users.</p>
-<h2>Advertising</h2>
-<p>The app uses Google AdMob. Because many users are minors, we apply child-directed treatment and a maximum ad content rating. Users can reset their Advertising ID or opt out of personalization in device settings. See <a href="https://policies.google.com/technologies/ads">Google's advertising policy</a>.</p>
-<h2>Third parties</h2>
-<p>Firebase and Google Play Services/AdMob process data under their own privacy policies. We do not sell personal information.</p>
-<h2>Children</h2>
-<p>The app is intended for students in classes 6–12. Children under 13 should use it under parental supervision. Parents may request deletion of their child's data.</p>
-<h2>Data retention and deletion</h2>
-<p>Data is kept while the account is active. To delete your account and data, email <a href="mailto:contact.prostutiinfo@gmail.com">contact.prostutiinfo@gmail.com</a>.</p>
-<h2>Contact</h2>
-<p>Milon's Academy · <a href="mailto:contact.prostutiinfo@gmail.com">contact.prostutiinfo@gmail.com</a></p>
+<body data-view="bn">
+<header>
+  <div class="bn"><h1>প্রাইভেসি পলিসি</h1>
+  <p>Prostuti — সর্বশেষ হালনাগাদ: ২৪ অক্টোবর, ২০২৬</p></div>
+  <div class="en"><h1>Privacy Policy</h1>
+  <p>Prostuti — Last updated: October 24, 2026</p></div>
+  <div class="lang-switch" role="group" aria-label="Language / ভাষা">
+    <button type="button" id="btn-bn" aria-pressed="true">বাংলা</button>
+    <button type="button" id="btn-en" aria-pressed="false">English</button>
+  </div>
+</header>
+<main>
+<div class="bn" lang="bn">
+  <div class="card">
+    <p>Prostuti অ্যাপে (“Prostuti”, “আমরা”, “আমাদের”) আমরা আপনার ব্যক্তিগত তথ্যের গোপনীয়তা ও নিরাপত্তাকে গুরুত্ব দিয়ে থাকি। এই প্রাইভেসি পলিসিতে বর্ণনা করা হয়েছে আমরা কী তথ্য সংগ্রহ করি, কীভাবে তা ব্যবহার করি, কাদের সাথে শেয়ার হয় এবং আপনার অধিকার কী।</p>
+    <div class="note">এই সংস্করণে নতুন যা যোগ হয়েছে: সহপাঠীকে সরাসরি চ্যালেঞ্জ, চ্যালেঞ্জ-সংক্রান্ত নোটিফিকেশন, অ্যাপের ভেতরে PDF নোট ভিউয়ার, পাবলিক প্রোফাইলে বিভাগ ও জেলা দেখানো এবং পরীক্ষা/চ্যালেঞ্জ সংক্রান্ত বিজ্ঞাপনের তথ্য।</div>
+  </div>
+  <div class="card"><nav aria-label="সূচিপত্র"><strong>সূচিপত্র</strong><ol>
+<li><a href="#s1">১. আমরা যে তথ্য সংগ্রহ করি</a></li>
+<li><a href="#s2">২. আমরা কীভাবে এই তথ্য ব্যবহার করি</a></li>
+<li><a href="#s3">৩. লিডারবোর্ড, পাবলিক প্রোফাইল ও সহপাঠী তালিকা</a></li>
+<li><a href="#s4">৪. বন্ধুর সাথে চ্যালেঞ্জ</a></li>
+<li><a href="#s5">৫. নোটিফিকেশন</a></li>
+<li><a href="#s6">৬. PDF নোট</a></li>
+<li><a href="#s7">৭. তৃতীয় পক্ষের সেবা</a></li>
+<li><a href="#s8">৮. বিজ্ঞাপন</a></li>
+<li><a href="#s9">৯. সাবস্ক্রিপশন ও কেনাকাটা</a></li>
+<li><a href="#s10">১০. তথ্যের নিরাপত্তা</a></li>
+<li><a href="#s11">১১. তথ্য সংরক্ষণ ও মুছে ফেলা</a></li>
+<li><a href="#s12">১২. শিক্ষার্থী ও অপ্রাপ্তবয়স্ক ব্যবহারকারী</a></li>
+<li><a href="#s13">১৩. আপনার অধিকার</a></li>
+<li><a href="#s14">১৪. পলিসির পরিবর্তন</a></li>
+<li><a href="#contact">১৫. যোগাযোগ</a></li>
+  </ol></nav></div>
+<div class="card"><section id="s1"><h2>১. আমরা যে তথ্য সংগ্রহ করি</h2>
+<h3>ক) আপনি যে তথ্য নিজে দেন</h3>
+<ul><li>নাম, ইমেইল ঠিকানা ও পাসওয়ার্ড (সাইন-আপের সময়; পাসওয়ার্ড Firebase Authentication-এ সংরক্ষিত থাকে, আমরা তা দেখতে পাই না)</li><li>জেন্ডার, শ্রেণী (ষষ্ঠ–দ্বাদশ, অ্যাডমিশন ক্যান্ডিডেট, চাকরি প্রার্থী বা অন্যান্য), বিভাগ (গ্রুপ), বিষয়/ডিপার্টমেন্ট</li><li>জন্মতারিখ, ফোন নম্বর, ঠিকানা, বিভাগ, জেলা, থানা (প্রোফাইল সম্পূর্ণ করার সময়, ঐচ্ছিক)</li><li>স্কুল/কলেজ/বিশ্ববিদ্যালয়ের নাম ও পাসের বছর (ঐচ্ছিক)</li><li>শখ, দক্ষতা ও নিজের সম্পর্কে সংক্ষিপ্ত বায়ো (ঐচ্ছিক)</li></ul>
+<h3>খ) অ্যাপ ব্যবহারের সময় স্বয়ংক্রিয়ভাবে সংগৃহীত তথ্য</h3>
+<ul><li>আপনার দেওয়া পরীক্ষা, উত্তর, স্কোর ও ফলাফল</li><li>অভিজ্ঞতা পয়েন্ট (XP), লেভেল, ব্যাজ, দৈনিক স্ট্রিক, বুকমার্ক ও দুর্বল প্রশ্নের তালিকা</li><li>বন্ধুর চ্যালেঞ্জের তথ্য: চ্যালেঞ্জের প্রশ্ন, আপনার উত্তর ও স্কোর, আপনার নাম এবং যাকে চ্যালেঞ্জ পাঠিয়েছেন তার নাম</li><li>নোটিফিকেশন পাঠানোর জন্য আপনার ডিভাইসের Firebase Cloud Messaging টোকেন</li><li>বিজ্ঞাপনমুক্ত সাবস্ক্রিপশন বা বিশেষ অ্যাক্সেস কেনা থাকলে তার মেয়াদের তারিখ</li></ul>
+<h3>গ) যা আমরা সংগ্রহ করি না</h3>
+<p>আমরা কোনো প্রোফাইল ছবি, GPS/সুনির্দিষ্ট অবস্থান, কন্টাক্ট লিস্ট, ক্যামেরা বা মাইক্রোফোনের তথ্য সংগ্রহ করি না। আপনার Advertising ID সংগ্রহ বা ব্যবহার করা হয় না। প্রোফাইলে জেন্ডার অনুযায়ী অ্যাপের ভেতরে তৈরি একটি ভেক্টর অ্যাভাটার দেখানো হয় — এতে কোনো ছবি আপলোড বা সংরক্ষণ জড়িত নয়। বিভাগ ও জেলা আপনি নিজে নির্বাচন করেন, ফোনের লোকেশন থেকে নেওয়া হয় না। পেমেন্ট বা কার্ডের তথ্য আমরা পাই না — কেনাকাটা সম্পূর্ণ Google Play-এর মাধ্যমে হয়। অ্যাপে আলাদা কোনো অ্যানালিটিক্স বা ক্র্যাশ-রিপোর্টিং SDK ব্যবহার করা হয় না।</p>
+</section></div>
+<div class="card"><section id="s2"><h2>২. আমরা কীভাবে এই তথ্য ব্যবহার করি</h2>
+<ul><li>আপনার অ্যাকাউন্ট তৈরি ও পরিচালনা করতে</li><li>আপনাকে সঠিক শ্রেণী/বিষয় অনুযায়ী পরীক্ষা দেখাতে</li><li>আপনার ফলাফল, XP, লিডারবোর্ড অবস্থান ও সাপ্তাহিক রিপোর্ট হিসাব করে দেখাতে</li><li>সহপাঠীদের মধ্যে চ্যালেঞ্জ ও প্রতিযোগিতা চালু রাখতে</li><li>চ্যালেঞ্জ, রিমাইন্ডার ও গুরুত্বপূর্ণ ঘোষণার নোটিফিকেশন পাঠাতে</li><li>অ্যাপের কার্যকারিতা ঠিক রাখতে ও উন্নত করতে</li><li>প্রয়োজনে আপনার সাথে যোগাযোগ করতে (যেমন সাপোর্ট)</li></ul>
+</section></div>
+<div class="card"><section id="s3"><h2>৩. লিডারবোর্ড, পাবলিক প্রোফাইল ও সহপাঠী তালিকা</h2>
+<p>লিডারবোর্ডে এবং অন্য শিক্ষার্থীর পাবলিক প্রোফাইলে আপনার নাম, শ্রেণী, জেন্ডার-ভিত্তিক অ্যাভাটার, XP/লেভেল, মোট পরীক্ষার সংখ্যা এবং আপনি যেসব তথ্য দিয়েছেন সেগুলো — স্কুল/প্রতিষ্ঠান, বিভাগ, জেলা, ডিপার্টমেন্ট, শখ, দক্ষতা ও বায়ো — অন্য শিক্ষার্থীরা দেখতে পারে। এই সংস্করণ থেকে বিভাগ ও জেলাও পাবলিক প্রোফাইলে দেখানো হয়। আপনার পাসের হার পাবলিক প্রোফাইলে দেখানো হয় না।</p>
+<p>একই শ্রেণীর শিক্ষার্থীরা “শ্রেণীর শিক্ষার্থীকে চ্যালেঞ্জ” অংশে নাম বা স্কুল লিখে আপনাকে খুঁজে পেতে পারে এবং আপনাকে চ্যালেঞ্জ পাঠাতে পারে। আপনি তা গ্রহণ বা বর্জন করতে পারেন।</p>
+<p>আপনার ইমেইল, ফোন নম্বর, ঠিকানা, থানা ও জন্মতারিখ অন্য কোনো শিক্ষার্থীর কাছে প্রকাশ করা হয় না। যে তথ্য আপনি দেননি তা কোথাও দেখানো হয় না; ঐচ্ছিক তথ্য ফাঁকা রাখলে তা প্রকাশিত হবে না।</p>
+</section></div>
+<div class="card"><section id="s4"><h2>৪. বন্ধুর সাথে চ্যালেঞ্জ</h2>
+<p>চ্যালেঞ্জ তৈরি করলে সেই পরীক্ষার প্রশ্ন, আপনার উত্তর ও স্কোর এবং আপনার নাম প্রতিপক্ষ দেখতে পায়; খেলা শেষ হলে আপনিও প্রতিপক্ষের নাম, উত্তর ও স্কোর দেখতে পান।</p>
+<ul><li>সরাসরি পাঠানো চ্যালেঞ্জে শুধু যাকে পাঠানো হয়েছে সে-ই যোগ দিতে পারে।</li><li>কোড শেয়ার করলে যার কাছে কোডটি পৌঁছায় (এবং যে অ্যাপে সাইন-ইন করা) সে যোগ দিতে পারে — তাই কোড শুধু বিশ্বস্ত কাউকে দিন।</li></ul>
+<p>অ্যাকাউন্ট মুছে ফেললে আপনার তৈরি করা সব চ্যালেঞ্জ মুছে যায় এবং অন্যের চ্যালেঞ্জে থাকা আপনার নাম ও উত্তর সরিয়ে বেনামি করা হয়।</p>
+</section></div>
+<div class="card"><section id="s5"><h2>৫. নোটিফিকেশন</h2>
+<p>আমরা Firebase Cloud Messaging এবং আপনার ফোনের স্থানীয় নোটিফিকেশন ব্যবহার করে নতুন চ্যালেঞ্জ, চ্যালেঞ্জ গ্রহণ/বর্জন/শেষ হওয়ার খবর এবং পড়ার ও স্ট্রিক রিমাইন্ডার পাঠাই। অ্যাপ বন্ধ থাকলে প্রায় প্রতি ১৫ মিনিটে অ্যাপ ইন্টারনেটের মাধ্যমে নিজের অ্যাকাউন্টে নতুন চ্যালেঞ্জ আছে কিনা পরীক্ষা করে। ফোনের সেটিংস থেকে যেকোনো সময় নোটিফিকেশন বন্ধ করতে পারেন।</p>
+</section></div>
+<div class="card"><section id="s6"><h2>৬. PDF নোট</h2>
+<p>চ্যাপ্টার নোটের PDF অ্যাপের ভেতরের ভিউয়ারেই পড়তে হয়। এতে ডাউনলোড বা শেয়ারের অপশন নেই। দেখানোর জন্য ফাইলটি সাময়িকভাবে অ্যাপের ব্যক্তিগত ক্যাশে রাখা হয় এবং ভিউয়ার বন্ধ করলে মুছে ফেলা হয়। শিক্ষামূলক কনটেন্ট সুরক্ষার জন্য এই স্ক্রিনে স্ক্রিনশট ও স্ক্রিন রেকর্ডিং বন্ধ থাকে।</p>
+</section></div>
+<div class="card"><section id="s7"><h2>৭. তৃতীয় পক্ষের সেবা</h2>
+<ul><li>Google Firebase — Authentication (লগইন), Cloud Firestore (ডেটা সংরক্ষণ) ও Cloud Messaging (নোটিফিকেশন)</li><li>Google AdMob — বিজ্ঞাপন প্রদর্শন</li><li>Google Play Billing — সাবস্ক্রিপশন/কেনাকাটা</li></ul>
+<p>এই সেবাগুলো কীভাবে তথ্য প্রসেস করে তা জানতে Google-এর নিজস্ব প্রাইভেসি পলিসি দেখুন। আমরা আপনার ব্যক্তিগত তথ্য কোনো বিজ্ঞাপনদাতা বা তৃতীয় পক্ষের কাছে বিক্রি করি না।</p>
+</section></div>
+<div class="card"><section id="s8"><h2>৮. বিজ্ঞাপন</h2>
+<p>এই অ্যাপে Google AdMob-এর মাধ্যমে বিজ্ঞাপন দেখানো হয়, যা অ্যাপটি বিনামূল্যে রাখতে সাহায্য করে। যেহেতু Prostuti মূলত শিক্ষার্থীদের জন্য এবং অনেক ব্যবহারকারী অপ্রাপ্তবয়স্ক হতে পারে, তাই অ্যাপটিকে সম্পূর্ণভাবে “child-directed” হিসেবে চিহ্নিত করা হয়েছে। এর ফলে:</p>
+<ul><li>কোনো ব্যক্তিগতকৃত (personalised) বা আচরণভিত্তিক বিজ্ঞাপন দেখানো হয় না</li><li>শুধুমাত্র G-রেটেড, পরিবারবান্ধব বিজ্ঞাপন দেখানো হয়</li><li>আপনার Advertising ID সংগ্রহ বা ব্যবহার করা হয় না</li></ul>
+<p>বিজ্ঞাপন যেখানে আসতে পারে: কিছু স্ক্রিনে ব্যানার; পরীক্ষা শেষ হওয়ার পর ফলাফল দেখানোর আগে একটি পূর্ণ-স্ক্রিন বিজ্ঞাপন; কিছু পরীক্ষা শুরুর আগে এবং বন্ধুর চ্যালেঞ্জের ফলাফল দেখার আগে একটি পুরস্কৃত (rewarded) বিজ্ঞাপন, যা দেখা সম্পূর্ণ আপনার ইচ্ছাধীন বিকল্প হিসেবে জানিয়ে দেওয়া হয়। পরীক্ষা চলাকালীন কখনোই কোনো বিজ্ঞাপন দেখানো হয় না। বিজ্ঞাপনমুক্ত সাবস্ক্রিপশন থাকলে এই বিজ্ঞাপনগুলো দেখানো হয় না।</p>
+</section></div>
+<div class="card"><section id="s9"><h2>৯. সাবস্ক্রিপশন ও কেনাকাটা</h2>
+<p>বিজ্ঞাপনমুক্ত বা বিশেষ অ্যাক্সেসের সাবস্ক্রিপশন Google Play-এর মাধ্যমে কেনা হয়। পেমেন্টের তথ্য Google সংরক্ষণ করে — আমরা তা দেখি না। আমরা কেবল কোন সুবিধা কোন তারিখ পর্যন্ত সক্রিয় তা আপনার অ্যাকাউন্টে সংরক্ষণ করি। রিফান্ড ও সাবস্ক্রিপশন বাতিলের নিয়ম Google Play-এর নীতি অনুযায়ী প্রযোজ্য।</p>
+</section></div>
+<div class="card"><section id="s10"><h2>১০. তথ্যের নিরাপত্তা</h2>
+<p>আপনার তথ্য সুরক্ষিত রাখতে আমরা Firebase-এর নিরাপত্তা ব্যবস্থা (Authentication ও Firestore Security Rules) এবং এনক্রিপ্টেড (HTTPS) সংযোগ ব্যবহার করি, যাতে শুধুমাত্র আপনি নিজেই আপনার ব্যক্তিগত তথ্য (ফোন, ঠিকানা, ইমেইল, জন্মতারিখ) দেখতে ও পরিবর্তন করতে পারেন। তবে ইন্টারনেটে তথ্য আদান-প্রদানের কোনো পদ্ধতিই শতভাগ নিরাপদ নয়, তাই আমরা সম্পূর্ণ নিরাপত্তার নিশ্চয়তা দিতে পারি না।</p>
+</section></div>
+<div class="card"><section id="s11"><h2>১১. তথ্য সংরক্ষণ ও মুছে ফেলা</h2>
+<p>আপনার অ্যাকাউন্ট সক্রিয় থাকা পর্যন্ত আমরা আপনার তথ্য সংরক্ষণ করি। প্রোফাইল স্ক্রিনের “অ্যাকাউন্ট স্থায়ীভাবে মুছে ফেলো” অপশনে অ্যাকাউন্ট মুছলে আপনার প্রোফাইল, পরীক্ষার ইতিহাস, XP, ব্যাজ, স্ট্রিক, বুকমার্ক, লিডারবোর্ড তথ্য, আপনার তৈরি চ্যালেঞ্জ এবং লগইন অ্যাকাউন্ট স্থায়ীভাবে মুছে যায়; অন্যের চ্যালেঞ্জে থাকা আপনার নাম ও উত্তর বেনামি করা হয়। এটি সঙ্গে সঙ্গে কার্যকর হয় এবং ফিরিয়ে আনা যায় না। অ্যাপ আনইনস্টল করার পরও অনুরোধ জানাতে চাইলে নিচের ইমেইলে যোগাযোগ করুন।</p>
+</section></div>
+<div class="card"><section id="s12"><h2>১২. শিক্ষার্থী ও অপ্রাপ্তবয়স্ক ব্যবহারকারী</h2>
+<p>Prostuti মূলত শিক্ষার্থীদের পরীক্ষা প্রস্তুতির জন্য তৈরি, এবং অনেক ব্যবহারকারী অপ্রাপ্তবয়স্ক হতে পারে। আমরা প্রয়োজনের অতিরিক্ত ব্যক্তিগত তথ্য সংগ্রহ করি না এবং ঐচ্ছিক তথ্য না দিলেও অ্যাপ ব্যবহার করা যায়। অভিভাবক বা শিক্ষকদের অনুরোধে আমরা কোনো শিক্ষার্থীর অ্যাকাউন্ট তথ্য পর্যালোচনা বা মুছে ফেলতে সহায়তা করতে পারি — এই বিষয়ে নিচের ইমেইলে যোগাযোগ করুন। অভিভাবকদের অনুরোধ, সন্তান যেন প্রোফাইলে অপ্রয়োজনীয় ব্যক্তিগত তথ্য (যেমন বায়োতে ফোন নম্বর) না লেখে, কারণ বায়ো অন্য শিক্ষার্থীরা দেখতে পারে।</p>
+</section></div>
+<div class="card"><section id="s13"><h2>১৩. আপনার অধিকার</h2>
+<p>আপনি যেকোনো সময় প্রোফাইল স্ক্রিন থেকে নিজের তথ্য দেখতে ও সম্পাদনা করতে পারেন এবং ঐচ্ছিক তথ্য মুছে দিতে পারেন। অ্যাপের ভেতর থেকেই অ্যাকাউন্ট ও সংশ্লিষ্ট সব তথ্য মুছে ফেলার সুবিধা আছে। আপনার তথ্য সংক্রান্ত অন্য কোনো অনুরোধ বা অভিযোগ জানাতে নিচের ইমেইলে যোগাযোগ করুন — আমরা যুক্তিসঙ্গত সময়ের মধ্যে সাড়া দেব।</p>
+</section></div>
+<div class="card"><section id="s14"><h2>১৪. পলিসির পরিবর্তন</h2>
+<p>প্রয়োজন অনুযায়ী আমরা এই প্রাইভেসি পলিসি হালনাগাদ করতে পারি। কোনো উল্লেখযোগ্য পরিবর্তন হলে অ্যাপের মাধ্যমে জানিয়ে দেওয়া হবে। এই পাতায় সবসময় সর্বশেষ সংস্করণ পাওয়া যাবে।</p>
+</section></div>
+<div class="card"><section id="contact"><h2>১৫. যোগাযোগ</h2><p>প্রাইভেসি সংক্রান্ত যেকোনো প্রশ্ন বা অনুরোধের জন্য যোগাযোগ করুন:</p><p><a class="mail" href="mailto:contact.prostutiinfo@gmail.com">contact.prostutiinfo@gmail.com</a></p></section></div>
 </div>
+<div class="en" lang="en">
+  <div class="card">
+    <p>At Prostuti (“Prostuti”, “we”, “us”, “our”) we take the privacy and security of your personal information seriously. This Privacy Policy explains what information we collect, how we use it, who it is shared with, and what rights you have.</p>
+    <div class="note">New in this version: challenging a classmate directly, challenge-related notifications, an in-app PDF notes viewer, showing division and district on public profiles, and information about ads related to exams and challenges.</div>
+  </div>
+  <div class="card"><nav aria-label="Table of contents"><strong>Table of contents</strong><ol>
+<li><a href="#en-s1">1. Information we collect</a></li>
+<li><a href="#en-s2">2. How we use this information</a></li>
+<li><a href="#en-s3">3. Leaderboard, public profile and classmate search</a></li>
+<li><a href="#en-s4">4. Challenging a friend</a></li>
+<li><a href="#en-s5">5. Notifications</a></li>
+<li><a href="#en-s6">6. PDF notes</a></li>
+<li><a href="#en-s7">7. Third-party services</a></li>
+<li><a href="#en-s8">8. Advertising</a></li>
+<li><a href="#en-s9">9. Subscriptions and purchases</a></li>
+<li><a href="#en-s10">10. Data security</a></li>
+<li><a href="#en-s11">11. Data retention and deletion</a></li>
+<li><a href="#en-s12">12. Students and minors</a></li>
+<li><a href="#en-s13">13. Your rights</a></li>
+<li><a href="#en-s14">14. Changes to this policy</a></li>
+<li><a href="#en-contact">15. Contact</a></li>
+  </ol></nav></div>
+<div class="card"><section id="en-s1"><h2>1. Information we collect</h2>
+<h3>a) Information you provide yourself</h3>
+<ul><li>Name, email address and password (at sign-up; the password is stored in Firebase Authentication and we cannot see it)</li><li>Gender, class (Six–Twelve, admission candidate, job seeker or other), group/stream, and subject/department</li><li>Date of birth, phone number, address, division, district and thana (optional, when completing your profile)</li><li>School/college/university name and year of passing (optional)</li><li>Hobbies, skills and a short bio about yourself (optional)</li></ul>
+<h3>b) Information collected automatically while you use the app</h3>
+<ul><li>The exams you take, your answers, scores and results</li><li>Experience points (XP), level, badges, daily streak, bookmarks and your list of weak questions</li><li>Friend challenge data: the challenge questions, your answers and score, your name, and the name of the person you challenged</li><li>Your device’s Firebase Cloud Messaging token, used to send notifications</li><li>The expiry date of any ad-free subscription or special access you have purchased</li></ul>
+<h3>c) Information we do not collect</h3>
+<p>We do not collect any profile photo, GPS/precise location, contact list, or camera or microphone data. Your Advertising ID is not collected or used. Your profile shows a vector avatar generated inside the app based on your gender — no photo is uploaded or stored. Your division and district are chosen by you and are not taken from your phone’s location. We do not receive any payment or card details — purchases are handled entirely through Google Play. The app does not use any separate analytics or crash-reporting SDK.</p>
+</section></div>
+<div class="card"><section id="en-s2"><h2>2. How we use this information</h2>
+<ul><li>To create and manage your account</li><li>To show you exams that match your class and subject</li><li>To calculate and show your results, XP, leaderboard position and weekly report</li><li>To keep challenges and competition among classmates running</li><li>To send notifications about challenges, reminders and important announcements</li><li>To keep the app working properly and to improve it</li><li>To contact you when needed (for example, for support)</li></ul>
+</section></div>
+<div class="card"><section id="en-s3"><h2>3. Leaderboard, public profile and classmate search</h2>
+<p>On the leaderboard and on another student’s view of your public profile, other students can see your name, class, gender-based avatar, XP/level, total number of exams taken, and any information you have provided — school/institution, division, district, department, hobbies, skills and bio. From this version, division and district are also shown on the public profile. Your pass rate is not shown on the public profile.</p>
+<p>Students in the same class can find you by typing your name or school in the “Challenge a classmate” section and can send you a challenge. You can accept or decline it.</p>
+<p>Your email, phone number, address, thana and date of birth are not shown to any other student. Information you have not provided is not displayed anywhere; if you leave optional fields blank, they will not be published.</p>
+</section></div>
+<div class="card"><section id="en-s4"><h2>4. Challenging a friend</h2>
+<p>When you create a challenge, your opponent can see the exam questions, your answers and score, and your name; once the game is finished, you can likewise see your opponent’s name, answers and score.</p>
+<ul><li>In a challenge sent directly to someone, only the person it was sent to can join.</li><li>If you share a challenge code, anyone the code reaches (and who is signed in to the app) can join — so only share the code with someone you trust.</li></ul>
+<p>If you delete your account, all challenges you created are deleted, and your name and answers in other people’s challenges are removed and made anonymous.</p>
+</section></div>
+<div class="card"><section id="en-s5"><h2>5. Notifications</h2>
+<p>We use Firebase Cloud Messaging and your phone’s local notifications to send you news of new challenges, challenge acceptance/decline/completion, and study and streak reminders. When the app is closed, it checks over the internet roughly every 15 minutes whether there are new challenges for your account. You can turn notifications off at any time in your phone’s settings.</p>
+</section></div>
+<div class="card"><section id="en-s6"><h2>6. PDF notes</h2>
+<p>Chapter-note PDFs can only be read inside the app’s built-in viewer. There is no option to download or share them. To display a file, it is temporarily kept in the app’s private cache and is deleted when you close the viewer. To protect the educational content, screenshots and screen recording are disabled on this screen.</p>
+</section></div>
+<div class="card"><section id="en-s7"><h2>7. Third-party services</h2>
+<ul><li>Google Firebase — Authentication (login), Cloud Firestore (data storage) and Cloud Messaging (notifications)</li><li>Google AdMob — displaying ads</li><li>Google Play Billing — subscriptions/purchases</li></ul>
+<p>To learn how these services process data, please see Google’s own privacy policies. We do not sell your personal information to any advertiser or third party.</p>
+</section></div>
+<div class="card"><section id="en-s8"><h2>8. Advertising</h2>
+<p>This app shows ads through Google AdMob, which helps keep the app free. Because Prostuti is mainly for students and many users may be minors, the app is designated as fully “child-directed”. As a result:</p>
+<ul><li>No personalised or behavioural ads are shown</li><li>Only G-rated, family-friendly ads are shown</li><li>Your Advertising ID is not collected or used</li></ul>
+<p>Where ads may appear: banners on some screens; a full-screen ad after you finish an exam, before the result is shown; and a rewarded ad before some exams begin and before you view the result of a friend challenge — watching a rewarded ad is clearly presented as entirely optional. No ad is ever shown while an exam is in progress. If you have an ad-free subscription, these ads are not shown.</p>
+</section></div>
+<div class="card"><section id="en-s9"><h2>9. Subscriptions and purchases</h2>
+<p>Ad-free or special-access subscriptions are purchased through Google Play. Google stores your payment information — we do not see it. We only store in your account which benefit is active and until what date. Refunds and subscription cancellation are governed by Google Play’s policies.</p>
+</section></div>
+<div class="card"><section id="en-s10"><h2>10. Data security</h2>
+<p>To keep your data safe, we use Firebase’s security features (Authentication and Firestore Security Rules) and encrypted (HTTPS) connections, so that only you can view and change your private information (phone, address, email, date of birth). However, no method of transmitting data over the internet is 100% secure, so we cannot guarantee absolute security.</p>
+</section></div>
+<div class="card"><section id="en-s11"><h2>11. Data retention and deletion</h2>
+<p>We keep your data for as long as your account is active. If you delete your account using the “Permanently delete account” option on the profile screen, your profile, exam history, XP, badges, streak, bookmarks, leaderboard data, challenges you created and your login account are permanently deleted; your name and answers in other people’s challenges are made anonymous. This takes effect immediately and cannot be undone. If you want to make a request after uninstalling the app, please contact us at the email below.</p>
+</section></div>
+<div class="card"><section id="en-s12"><h2>12. Students and minors</h2>
+<p>Prostuti is mainly built for students’ exam preparation, and many users may be minors. We do not collect more personal information than necessary, and the app can be used without providing any optional information. At the request of parents or teachers, we can help review or delete a student’s account data — please contact us at the email below. We ask parents to make sure their child does not write unnecessary personal information (such as a phone number) in their bio, because the bio can be seen by other students.</p>
+</section></div>
+<div class="card"><section id="en-s13"><h2>13. Your rights</h2>
+<p>You can view and edit your information from the profile screen at any time, and you can remove optional information. You can delete your account and all associated data from within the app itself. For any other request or complaint about your data, please contact us at the email below — we will respond within a reasonable time.</p>
+</section></div>
+<div class="card"><section id="en-s14"><h2>14. Changes to this policy</h2>
+<p>We may update this Privacy Policy as needed. If there is a significant change, we will let you know through the app. The latest version will always be available on this page.</p>
+</section></div>
+<div class="card"><section id="en-contact"><h2>15. Contact</h2><p>For any privacy-related questions or requests, contact us at:</p><p><a class="mail" href="mailto:contact.prostutiinfo@gmail.com">contact.prostutiinfo@gmail.com</a></p></section></div>
 </div>
+</main>
+<footer><span class="bn">© 2026 Prostuti. সর্বস্বত্ব সংরক্ষিত।</span><span class="en">© 2026 Prostuti. All rights reserved.</span></footer>
+<script>
+(function(){
+  var T={bn:{t:"প্রাইভেসি পলিসি — Prostuti",d:"Prostuti অ্যাপের প্রাইভেসি পলিসি: আমরা কী তথ্য সংগ্রহ করি, কীভাবে ব্যবহার করি এবং আপনার অধিকার।"},
+         en:{t:"Privacy Policy — Prostuti",d:"Prostuti app privacy policy: what information we collect, how we use it, and your rights."}};
+  function set(l){
+    document.body.setAttribute("data-view",l);
+    document.documentElement.lang=l;
+    document.title=T[l].t;
+    var md=document.querySelector('meta[name="description"]'); if(md) md.setAttribute("content",T[l].d);
+    document.getElementById("btn-bn").setAttribute("aria-pressed",l==="bn");
+    document.getElementById("btn-en").setAttribute("aria-pressed",l==="en");
+  }
+  document.getElementById("btn-bn").addEventListener("click",function(){set("bn");history.replaceState(null,"",location.pathname+location.search)});
+  document.getElementById("btn-en").addEventListener("click",function(){set("en");history.replaceState(null,"",location.pathname+location.search+"#en")});
+  var q=new URLSearchParams(location.search).get("lang");
+  if(q==="en"||location.hash==="#en"||location.hash.indexOf("#en-")===0) set("en");
+  else if(!q&&!location.hash&&/^en\b/i.test(navigator.language||"")) set("en");
+})();
+</script>
 </body>
 </html>
